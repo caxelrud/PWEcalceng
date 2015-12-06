@@ -126,19 +126,3 @@ let obs7 = obs3
 let P3=LiveChart.FastLine(obs6,"Scrolling 1","Scrolling 1")
 let P4=LiveChart.FastLine(obs7,"Scrolling 2","Scrolling 2")
 
-(*
-//Example2: Scroll
-let mutable TS1 = 
-  [ for x in 0 .. 99 -> 
-      DateTime.Now.AddSeconds(float x).ToShortDateString(),sin(float x / 10.0) ]
-//Chart.Line(TS1)
-
-let mutable X=99
-let obs2 = Observable.Interval(TimeSpan.FromSeconds(1.0))
-           |> Observable.map (fun _->
-                                X<-X+1
-                                TS1<-TS1.Tail @ [DateTime.Now.AddSeconds(float X).ToShortDateString(),sin(float X / 10.0)] 
-                                TS1 
-                                 ) 
-LiveChart.Line(obs2)
-*)
