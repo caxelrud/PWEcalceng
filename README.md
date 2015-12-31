@@ -1,4 +1,4 @@
-# PWEcalceng - Powerfull&Easy Real-time Calculation Engine and Simulator
+# PWZcalceng - Powerfull&Easy Real-time Calculation Engine and Simulator
 
 Real-time Calculation Engine is a powerful application that performs complex calculations with real-time data. 
 The application imports or simulate real-time values.
